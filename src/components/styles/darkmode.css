@@ -1,0 +1,113 @@
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+  --transition-duration: 0.5s;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color var(--transition-duration),
+    color var(--transition-duration);
+}
+
+body.dark-mode {
+  --background-color: #333;
+  --text-color: #fff;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .header h1 {
+  color: #edc84b;
+}
+
+.dark-mode .menu-section {
+  border: 2px solid #f8da77;
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .menu h2 {
+  background-color: #444;
+}
+
+.dark-mode .menu h1,
+.dark-mode .menu h2 {
+  border-top: 2px solid #f8da77;
+  border-bottom: 2px solid #f8da77;
+}
+
+.dark-mode .menu > p {
+  color: #ccc;
+}
+
+.dark-mode .pizza,
+.dark-mode .appetizer,
+.dark-mode .dessert {
+  background-color: #555;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  gap: 2rem;
+  padding: 10px;
+  height: 150px;
+}
+
+.dark-mode .pizza img,
+.dark-mode .appetizer img,
+.dark-mode .dessert img {
+  width: 15rem;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.dark-mode .pizza div,
+.dark-mode .appetizer div,
+.dark-mode .dessert div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.dark-mode .pizza h3,
+.dark-mode .appetizer h3,
+.dark-mode .dessert h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.dark-mode .pizza p,
+.dark-mode .appetizer p,
+.dark-mode .dessert p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: auto;
+}
+
+.dark-mode .pizza span,
+.dark-mode .appetizer span,
+.dark-mode .dessert span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.dark-mode .pizza.sold-out span,
+.dark-mode .appetizer.sold-out span,
+.dark-mode .dessert.sold-out span {
+  color: #ff5757;
+}
+
+.dark-mode .pizza.sold-out,
+.dark-mode .appetizer.sold-out,
+.dark-mode .dessert.sold-out {
+  color: #888;
+}
