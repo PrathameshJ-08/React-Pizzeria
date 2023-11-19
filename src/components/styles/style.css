@@ -23,6 +23,11 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  background-image: url("/public/miscImages/bglight.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
