@@ -18,6 +18,7 @@ body.dark-mode {
 }
 
 .dark-mode .header h1 {
+  background-color: #faefd900;
   color: #edc84b;
 }
 
@@ -46,15 +47,6 @@ body.dark-mode {
 .dark-mode .dessert {
   background-color: #555;
   color: #fff;
-}
-
-.dark-mode .pizza img,
-.dark-mode .appetizer img,
-.dark-mode .dessert img {
-  width: 15rem;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border-radius: 8px;
 }
 
 .dark-mode .pizza.sold-out span,

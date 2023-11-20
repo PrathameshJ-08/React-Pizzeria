@@ -5,15 +5,17 @@
 }
 
 .header h1 {
-  color: #edc84b;
+  background-color: rgb(250, 240, 219, 0.5);
+  color: #ffa600;
   text-transform: uppercase;
   text-align: center;
   font-size: 5.2rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 3px;
   position: relative;
   width: 100%;
   display: block;
+  border-radius: 20%;
 }
 
 .header h1::before,

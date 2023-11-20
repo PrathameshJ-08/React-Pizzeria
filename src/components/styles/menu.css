@@ -5,6 +5,7 @@
   margin: 0 2rem;
   display: flex;
   flex-direction: column;
+  background-color: #feebc8;
 }
 .menu-items {
   display: flex;
@@ -66,6 +67,7 @@
 .pizza,
 .appetizer,
 .dessert {
+  background-color: #fee0a8;
   display: flex;
   gap: 2rem;
   padding: 10px;
