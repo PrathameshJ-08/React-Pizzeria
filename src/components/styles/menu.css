@@ -130,3 +130,9 @@
   filter: grayscale();
   opacity: 0.8;
 }
+
+.pizza.sold-out span,
+.appetizer.sold-out span,
+.dessert.sold-out span {
+  color: #ff5757;
+}

@@ -49,12 +49,6 @@ body.dark-mode {
   color: #fff;
 }
 
-.dark-mode .pizza.sold-out span,
-.dark-mode .appetizer.sold-out span,
-.dark-mode .dessert.sold-out span {
-  color: #ff5757;
-}
-
 .dark-mode .pizza.sold-out,
 .dark-mode .appetizer.sold-out,
 .dark-mode .dessert.sold-out {
