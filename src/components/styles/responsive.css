@@ -123,13 +123,6 @@
     flex-direction: row;
   }
 
-  .pizza img,
-  .appetizer img,
-  .dessert img {
-    width: 30%;
-    margin-right: 2rem;
-  }
-
   .pizza div,
   .appetizer div,
   .dessert div {
