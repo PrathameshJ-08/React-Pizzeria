@@ -14,7 +14,7 @@
 }
 .menu-section h2 {
   padding-bottom: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
 }
 
 .menu {
@@ -81,7 +81,7 @@
 .dessert img {
   width: 15rem;
   aspect-ratio: 1;
-  align-self: start;
+  align-self: center;
   object-fit: cover;
   border-radius: 8px;
 }
