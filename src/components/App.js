@@ -1,8 +1,8 @@
-// components/App.js
+//App.js
 import React from "react";
 import Header from "./Header";
-import Menu from "./Menu"; // Corrected import path
-import Footer from "./Footer"; // This now includes the Status component
+import Menu from "./Menu";
+import Footer from "./Footer";
 import DarkModeToggle from "./DarkModeToggle";
 import { pizzaData, appetizerData, dessertData } from "../data/data";
 import "./styles/style.css";

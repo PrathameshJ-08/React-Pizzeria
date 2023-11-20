@@ -1,4 +1,4 @@
-// components/Footer.js
+//Footer.js
 import React from "react";
 
 function Status({ isOpen, openHour, closeHour }) {

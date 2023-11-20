@@ -1,3 +1,4 @@
+/* global styles */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 
 * {
@@ -39,7 +40,7 @@ body {
   gap: 4.8rem;
 }
 
-/* *************** */
+/* ******footer********* */
 
 .footer {
   font-size: 1.8rem;

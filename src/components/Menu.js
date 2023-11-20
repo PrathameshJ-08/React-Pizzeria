@@ -1,10 +1,10 @@
 // Menu.js
 import React from "react";
-import { Pizza, Appetizer, Dessert } from "./MenuItem"; // Corrected import path
-import data from "../data/data"; // Corrected import path
+import { Pizza, Appetizer, Dessert } from "./MenuItem";
+import data from "../data/data";
 
 function Menu() {
-  const { appetizerData, pizzaData, dessertData } = data; // Destructuring data object
+  const { appetizerData, pizzaData, dessertData } = data;
   const numPizzas = pizzaData.length;
 
   return (
